@@ -6,7 +6,9 @@ class EmailAddressParser
     
     attr_accessor :email
   
-    def 
+    # def initialize 
+    
+    
   
 
     def self.parse(email)
@@ -17,7 +19,7 @@ class EmailAddressParser
     # artist_name = filename[0]
     # name = filename[1]
       
-    # song = self.new
+     parser = self.new
     # song.name = name
     # song.artist_name = artist_name
     # song
