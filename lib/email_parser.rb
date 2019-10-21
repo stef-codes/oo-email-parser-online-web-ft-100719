@@ -23,7 +23,7 @@ class EmailAddressParser
     
     # "john@doe.com, person@somewhere.org"
 
-    email = email.split(/\s*[ ,.]\s*/)
+    email = email.split(/\s*[,]\s*/)
     # artist_name = filename[0]
     # name = filename[1]
       
