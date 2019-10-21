@@ -7,13 +7,13 @@ class EmailAddressParser
     attr_accessor :email
   
   
-  def parse(email)
-      def self.new_from_filename(filename)
-    
-      # "Taylor Swift - Blank Space.mp3"
 
-         filename = filename.split(/\s*[-,.]\s*/)
-         artist_name = filename[0]
+    def self.new_from_filename(filename)
+    
+    "john@doe.com, person@somewhere.org"
+
+    filename = filename.split(/\s*[-,.]\s*/)
+    artist_name = filename[0]
          name = filename[1]
       
          song = self.new
