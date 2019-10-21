@@ -11,13 +11,13 @@ class EmailAddressParser
     end 
   
 
-    def parse(emails)
+    def parse
     
     # "john@doe.com, person@somewhere.org"
 
     email = emails.split(/[\s,]+/)
 
-      
+  
     end 
 
 end 
