@@ -15,7 +15,7 @@ class EmailAddressParser
     
     # "john@doe.com, person@somewhere.org"
 
-    email = emails.split(/[\s,]+/)
+    email = emails.split(/[\s,]+/).uniq
 
   
     end 
