@@ -12,7 +12,11 @@ class EmailAddressParser
       @@all
     end 
     
-    
+    def self.create
+      email_parser = self.new
+      @@all << email
+      email_parser
+    end
   
 
     def self.parse(email)
