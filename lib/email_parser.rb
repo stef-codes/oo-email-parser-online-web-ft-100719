@@ -24,13 +24,7 @@ class EmailAddressParser
     # "john@doe.com, person@somewhere.org"
 
     email = email.split(/\s*[,]\s*/)
-    # artist_name = filename[0]
-    # name = filename[1]
-      
-     parser = self.new
-    # song.name = name
-    # song.artist_name = artist_name
-    # song
+      @@all << email 
   end 
 
 end 
