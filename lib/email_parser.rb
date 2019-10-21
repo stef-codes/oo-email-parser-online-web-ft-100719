@@ -11,7 +11,7 @@ class EmailAddressParser
     end 
   
 
-    def self.parse(emails)
+    def parse(emails)
     
     # "john@doe.com, person@somewhere.org"
 
