@@ -16,7 +16,7 @@ class EmailAddressParser
     # "john@doe.com, person@somewhere.org"
 
     email = email.split(/\s*[ , , ]\s*/)
-      @@all << email 
+      
   end 
 
 end 
