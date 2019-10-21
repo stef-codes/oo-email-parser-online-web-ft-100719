@@ -10,16 +10,16 @@ class EmailAddressParser
 
     def self.parse(email)
     
-    "john@doe.com, person@somewhere.org"
+    # "john@doe.com, person@somewhere.org"
 
     email = email.split(/\s*[ ,.]\s*/)
-    artist_name = filename[0]
-    name = filename[1]
+    # artist_name = filename[0]
+    # name = filename[1]
       
-    song = self.new
-    song.name = name
-    song.artist_name = artist_name
-    song
+    # song = self.new
+    # song.name = name
+    # song.artist_name = artist_name
+    # song
   end 
 
 end 
