@@ -23,7 +23,7 @@ class EmailAddressParser
     
     # "john@doe.com, person@somewhere.org"
 
-    email = email.split(/\s*[,]\s*/)
+    email = email.split(",")
       @@all << email 
   end 
 
