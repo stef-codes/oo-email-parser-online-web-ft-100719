@@ -16,7 +16,10 @@ class EmailAddressParser
     # "john@doe.com, person@somewhere.org"
 
     email = email.split(/\s*[ , , ]\s*/)
+    emails.collect do |email|
+      email.split()
+      email.split(',') 
       
-  end 
+    end 
 
 end 
