@@ -8,7 +8,7 @@ class EmailAddressParser
   
   
   def initialize 
-      @emailaddress
+      @emailaddress = emailaddress
   end 
   
 
