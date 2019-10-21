@@ -8,19 +8,18 @@ class EmailAddressParser
   
   
 
-    def self.new_from_filename(filename)
+    def self.parse(email)
     
     "john@doe.com, person@somewhere.org"
 
-    filename = filename.split(/\s*[-,.]\s*/)
+    email = email.split(/\s*[ ,.]\s*/)
     artist_name = filename[0]
-         name = filename[1]
+    name = filename[1]
       
-         song = self.new
-         song.name = name
-         song.artist_name = artist_name
-         song
-  end 
+    song = self.new
+    song.name = name
+    song.artist_name = artist_name
+    song
   end 
 
 end 
