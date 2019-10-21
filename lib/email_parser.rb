@@ -8,7 +8,7 @@ class EmailAddressParser
   
     @@all = []
     
-    def 
+    def self.
   
 
     def self.parse(email)
